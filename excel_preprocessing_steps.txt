@@ -1,0 +1,9 @@
+- Scrape daft.ie
+- convert to csv
+- remove any rows without an actual price (descriptions or other nonsense)
+- any entries with "prices from: x" etc. were just set to whatever the x was
+- Any prices in Pound, euro value used
+- Separate out by county
+- Any address with the county twice had one of them removed (Redundant and interferes with excel formula)
+- Remove duplicate listings
+- once excel cleansing has been done the dataset is saved as housingPrices_cleansed.csv
